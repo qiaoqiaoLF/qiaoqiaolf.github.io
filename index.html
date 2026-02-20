@@ -6,35 +6,79 @@
     <title>Lifeng Qiao</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            margin: 0 auto;
-            max-width: 800px;
-            padding: 2em;
-            background-color: #f9f9f9;
             color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fcfcfc;
         }
-        a {
-            color: #0077cc;
+        
+        header {
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 1rem;
         }
-        /* Style for your image */
-        .profile-img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 1em 0;
-            border-radius: 8px; /* Optional: adds rounded corners */
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .links {
+            margin-top: 2rem;
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 1.5rem;
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
         }
     </style>
 </head>
 <body>
+
+    <header>
+        <h1>Lifeng Qiao</h1>
+    </header>
+
     <main>
-        <p>Hello,</p>
-        <p>I am Lifeng Qiao.</p>
-        <p>I obtained my bachelor's degree from Shanghai Jiao Tong University.</p>
-        <p>I am interested in building powerful models and algorithms to capture complex distributions in the real world.</p>
-        <p>Feel free to contact me at: <a href="mailto:lifeng.qiao@outlook.com">lifeng.qiao@outlook.com</a></p>
-        <img src="protein.png" alt="Protein visualization" class="profile-img">
+        <p>
+            I am a Ph.D. student at the School of Artificial Intelligence, Shanghai Jiao Tong University, advised by Prof. Wanli Ouyang. I received my Bachelor's degree from SJTU.
+        </p>
+        
+        <p>
+            I primarily conduct research at IntelliGen AI, where I work with Prof. Siqi Sun on biomolecular structure prediction and generation.
+        </p>
+
+        <div class="links">
+            <a href="mailto:lifeng.qiao@outlook.com">Email </a>
+            <a href="https://github.com/qiaoqiaoLF" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=JiBINo0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        </div>
     </main>
+
 </body>
 </html>
